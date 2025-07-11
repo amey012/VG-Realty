@@ -129,7 +129,7 @@ function renderHome(data) {
   document.querySelector(".properties-grid").innerHTML = home.properties
     .map(
       (p) => `
-        <div class="property-card">
+        <a class="property-card" href="${p.href}">
           <div class="property-image">
             <img src="${p.image}">
             <span class="property-tag">${p.tag}</span>
@@ -144,12 +144,12 @@ function renderHome(data) {
               <span><img src="/images/svg/scale.svg" width="20">${p.size}</span>
             </div>
           </div>
-        </div>`
+        </a>`
     )
     .join("");
   document.querySelector(
     ".view-all-text"
-  ).innerHTML = `${home.propertiesSection.viewAllText} <img src="${home.propertiesSection.ArrowIcon}" alt="Arrow Icon" width="30">`;
+  ).innerHTML = `<a href="${home.propertiesSection.propertiesLink}">${home.propertiesSection.viewAllText} <img src="${home.propertiesSection.ArrowIcon}" alt="Arrow Icon" width="30"></a>`;
 
   // About
   document.querySelector(".about-section-label").innerText = home.about.label;

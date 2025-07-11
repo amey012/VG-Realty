@@ -124,7 +124,8 @@
       "label": "Featured Properties",
       "title": "DISCOVER HOMES TAILORED TO YOUR LIFESTYLE AND NEEDS",
       "viewAllText": "View All Properties",
-      "ArrowIcon": "/images/properties/black-arrow-icon.png"
+      "ArrowIcon": "/images/properties/black-arrow-icon.png",
+      "propertiesLink": "/properties/index.html"
     },
     "properties": [
       {
@@ -135,7 +136,8 @@
         "beds": 5,
         "baths": 3,
         "size": "3,800 sq.ft",
-        "image": "/images/properties/property1.jpg"
+        "image": "/images/properties/property1.jpg",
+        "href": "/property-view/index.html"
       },
       {
         "tag": "For Rent",
