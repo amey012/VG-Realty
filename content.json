@@ -1,0 +1,721 @@
+{
+  "global": {
+    "header": {
+      "logo": "/images/header/logo.png", "homeLink": "/index.html",
+      "navLinks": [
+        { "label": "Home", "href": "/index.html" },
+        { "label": "About Us", "href": "/about-us/index.html" },
+        { "label": "Properties", "href": "/properties/index.html" },
+        { "label": "Agents", "href": "/about-us/index.html#agents" },
+        { "label": "Blogs", "href": "" }
+      ],
+      "contactButton": "Contact Us Now", "contactLink":"/contact-us/index.html",
+      "contactIcon": "/images/header/contact-icon.png",
+      "contactArrow": "/images/header/arrow-icon.png"
+    },
+
+    "contact": {
+      "label": "Get In Touch",
+      "title": "LET’S MAKE YOUR PROPERTY JOURNEY EFFORTLESS",
+      "description": "Have questions or ready to take the next step? Whether you're looking to buy, rent, or invest, our team is here to guide you every step of the way. Let’s turn your property goals into reality.",
+      "primaryButton": "Book a Call"
+    },
+
+    "footer": {
+      "logo": "/images/footer/logo-white.png",
+      "phone": "+91 123456789",
+      "email": "info@vgrealty.com",
+      "address": "123, xyz, abc, Pune, Maharashtra",
+      "desc": "Experience unparalleled elegance in our luxury residences, featuring exquisite design, premium amenities, and prime locations for the most discerning tastes. Experience unparalleled elegance in our luxury residences, featuring exquisite design, premium amenities, and prime locations for the most discerning tastes.",
+      "copyright": "© 2025 VG Realty. All rights reserved.",
+      "developer": "Developed by KALZTECH",
+      "socials": [
+        {
+          "platform": "Facebook",
+          "url": "#",
+          "icon": "/images/footer/facebook-icon.png"
+        },
+        {
+          "platform": "LinkedIn",
+          "url": "#",
+          "icon": "/images/footer/linkedin-icon.png"
+        },
+        {
+          "platform": "YouTube",
+          "url": "#",
+          "icon": "/images/footer/youtube-icon.png"
+        }
+      ],
+      "navHeader": "Navigation",
+      "navLinks": [
+        { "label": "Home", "href": "#" },
+        { "label": "About", "href": "#" },
+        { "label": "Properties", "href": "#" },
+        { "label": "Contact", "href": "#" }
+      ]
+    }
+  },
+
+  "home": {
+    "hero": {
+      "image": "/images/hero/hero.png",
+      "contactArrow": "/images/hero/arrow-icon.png",
+      "propertiesLink": "/properties/index.html",
+      "exploreButton": "Explore Properties"
+    },
+
+    "offer": {
+      "label": "What We Offer",
+      "image": "/images/offer.png",
+      "title": "Comprehensive Real Estate Solutions",
+      "description": "Our comprehensive services encompass luxury property sales, sustainable green building investments, and premium vacation rentals.",
+      "items": [
+        {
+          "icon": "/images/luxury-icon.png",
+          "title": "Luxury Residences",
+          "text": "Experience unparalleled elegance in our luxury residences, featuring exquisite design, premium amenities, and prime locations for the most discerning tastes."
+        },
+        {
+          "icon": "/images/luxury-icon.png",
+          "title": "Vacation Rentals",
+          "text": "Enjoy premium vacation properties with unmatched service and amenities."
+        }
+      ]
+    },
+
+    "services": {
+      "label": "Why Choose Us",
+      "title": "Explore Our Range of Expert Real Estate Services",
+      "items": [
+        {
+          "icon": "/images/services/property-sales-icon.png",
+          "title": "Property Sales",
+          "text": "Expertly promoting and selling your property to attract qualified buyers."
+        },
+        {
+          "icon": "/images/services/buyer-icon.png",
+          "title": "Buyer Representation",
+          "text": "Guiding you through the home-buying process, prioritizing your interests."
+        },
+        {
+          "icon": "/images/services/rental-icon.png",
+          "title": "Rental Management",
+          "text": "Managing tenant relations, maintenance, and finances to maximize rental returns."
+        },
+        {
+          "icon": "/images/services/investment-icon.png",
+          "title": "Investment Consulting",
+          "text": "Providing strategic advice to help you capitalize on real estate opportunities."
+        },
+        {
+          "icon": "/images/services/valuation-icon.png",
+          "title": "Property Valuation",
+          "text": "Accurately assessing your property's value for sales, purchases, or investments."
+        },
+        {
+          "icon": "/images/services/tailored-icon.png",
+          "title": "Tailored Solutions",
+          "text": "Delivering customized real estate services aligned with your specific goals."
+        }
+      ]
+    },
+
+    "propertiesSection": {
+      "label": "Featured Properties",
+      "title": "DISCOVER HOMES TAILORED TO YOUR LIFESTYLE AND NEEDS",
+      "viewAllText": "View All Properties",
+      "ArrowIcon": "/images/properties/black-arrow-icon.png"
+    },
+    "properties": [
+      {
+        "tag": "For Sell",
+        "location": "River Oaks, Houston, Texas",
+        "name": "Billionaire Mansion",
+        "price": "$500,000",
+        "beds": 5,
+        "baths": 3,
+        "size": "3,800 sq.ft",
+        "image": "/images/properties/property1.jpg"
+      },
+      {
+        "tag": "For Rent",
+        "location": "Brooklyn Heights, New York",
+        "name": "Palazzo di Amore",
+        "price": "$490,000",
+        "beds": 4,
+        "baths": 2,
+        "size": "2,100 sq.ft",
+        "image": "/images/properties/property2.jpg"
+      },
+      {
+        "tag": "For Investment",
+        "location": "Bel Air, Los Angeles, California",
+        "name": "The One",
+        "price": "$690,000",
+        "beds": 6,
+        "baths": 4,
+        "size": "2,780 sq.ft",
+        "image": "/images/properties/property3.jpg"
+      },
+      {
+        "tag": "For Rent",
+        "location": "Holmby Hills, Los Angeles, California",
+        "name": "The Beverly House",
+        "price": "$290,000",
+        "beds": 3,
+        "baths": 2,
+        "size": "1,500 sq.ft",
+        "image": "/images/properties/property4.jpg"
+      },
+      {
+        "tag": "For Sell",
+        "location": "Tarrytown, Austin, Texas",
+        "name": "The Manor",
+        "price": "$482,000",
+        "beds": 7,
+        "baths": 5,
+        "size": "3,100 sq.ft",
+        "image": "/images/properties/property5.jpg"
+      },
+      {
+        "tag": "For Investment",
+        "location": "Upper East Side, New York",
+        "name": "The Penthouse at Central Park Tower",
+        "price": "$298,000",
+        "beds": 2,
+        "baths": 0,
+        "size": "2,200 sq.ft",
+        "image": "/images/properties/property6.jpg"
+      }
+    ],
+
+    "about": {
+      "label": "Who We Are",
+      "title": "REDEFINING EXCELLENCE IN REAL ESTATE",
+      "paragraphs": [
+        "Founded with a passion for exceptional living spaces, we deliver top-tier real estate services tailored to your unique needs.",
+        "Our team combines market expertise with a commitment to excellence to help you find or create the perfect property."
+      ],
+      "teamPhoto": "/images/team/team.png",
+      "eyeIcon": "/images/team/eye-icon.png",
+      "communityIcon":"/images/team/community-icon.png",
+      "goalIcon":"/images/team/goal-icon.png",
+      "stats": [
+        { "label": "Projects Completed", "value": "200+" },
+        { "label": "Happy Clients", "value": "70+" },
+        { "label": "Projects Value", "value": "$10M+" },
+        { "label": "Client Retention Rate", "value": "90%" }
+      ],
+      "vision": "To be the leading real estate partner known for integrity, innovation, and exceptional client experiences.",
+      "mission": "Delivering high-quality properties and tailored solutions that exceed expectations and create lasting value.",
+      "goals": "Drive growth, sustainability, and customer satisfaction through excellence in every project we undertake."
+    },
+
+    "testimonialsSection": {
+      "label": "What Our Clients Say",
+      "title": "Trusted by Many, Loved by All",
+      "description": "Our clients’ success stories reflect our commitment to excellence. See how we’ve helped them find their dream homes, sustainable investments, and perfect getaways."
+    },
+    "testimonials": [
+      {
+        "name": "Jacob Reed",
+        "role": "Corporate Attorney",
+        "text": "Olivia’s professionalism and deep understanding of luxury properties gave me confidence throughout the process.",
+        "image": "/images/clients/client1.jpg",
+        "stars": 2
+      },
+      {
+        "name": "Lily Ross",
+        "role": "Eco-Lifestyle Blogger",
+        "text": "Emma’s expertise in sustainable housing exceeded my expectations. She found me the perfect green home for my family.",
+        "image": "/images/clients/client2.jpg",
+        "stars": 4
+      },
+      {
+        "name": "Samuel Brooks",
+        "role": "Interior Designer",
+        "text": "Charlotte’s architectural insights and design advice made choosing my dream home an inspiring journey.",
+        "image": "/images/clients/client3.jpg",
+        "stars": 3
+      },
+      {
+        "name": "Amelia Cooper",
+        "role": "Graphic Designer",
+        "text": "Sophia’s passion for sustainable housing helped me find a beautiful and eco-friendly home that I absolutely love.",
+        "image": "/images/clients/client4.jpg",
+        "stars": 1
+      },
+      {
+        "name": "William Parker",
+        "role": "Business Owner",
+        "text": "Noah’s commitment to finding the perfect property for my business was exceptional. His market insights are unparalleled.",
+        "image": "/images/clients/client5.jpg",
+        "stars": 3
+      },
+      {
+        "name": "Sebastian Turner",
+        "role": "Hospitality Manager",
+        "text": "Ethan’s creativity and expertise in short-term rentals gave me the confidence to invest in my first vacation property.",
+        "image": "/images/clients/client6.jpg",
+        "stars": 5
+      },
+      {
+        "name": "Samuel Brooks",
+        "role": "Interior Designer",
+        "text": "Charlotte’s architectural insights and design advice made choosing my dream home an inspiring journey.",
+        "image": "/images/clients/client3.jpg",
+        "stars": 3
+      },
+      {
+        "name": "Amelia Cooper",
+        "role": "Graphic Designer",
+        "text": "Sophia’s passion for sustainable housing helped me find a beautiful and eco-friendly home that I absolutely love.",
+        "image": "/images/clients/client4.jpg",
+        "stars": 1
+      }
+    ]
+  },
+
+  "aboutUs":{
+
+    "about": {
+      "label": "Who We Are",
+      "title": "REDEFINING EXCELLENCE IN REAL ESTATE",
+      "paragraphs": [
+        "Founded with a passion for exceptional living spaces, we specialize in luxury properties, green and sustainable homes, and vacation rentals.",
+        "Our journey is defined by a commitment to quality, innovation, and client satisfaction."
+      ],
+      "teamPhoto": "/images/team/team.png",
+      "stats": [
+        { "label": "Projects Completed", "value": "200+" },
+        { "label": "Happy Clients", "value": "70+" },
+        { "label": "Projects Value", "value": "$10M+" },
+        { "label": "Client Retention Rate", "value": "90%" }
+      ],
+      "visionIcon":"/images/team/eye-icon.png",
+      "communityIcon":"/images/team/community-icon.png",
+      "goalIcon":"/images/team/goal-icon.png",
+      "subHeading1":"Our Vision",
+      "subHeading2":"Expert Team",
+      "subHeading3":"Tailored Solutions",
+      "desc1": "To be a leader in the real estate market, offering unparalleled services in luxury, sustainability, and vacation properties. We aim to set new standards in excellence and client satisfaction.",
+      "desc2": "Our team comprises seasoned professionals with extensive experience in luxury real estate, sustainable housing, and vacation rentals.",
+      "desc3": "We offer customized real estate services that align with your specific lifestyle and investment goals, ensuring a seamless and personalized experience."
+    },
+
+    "partners": {
+      "title": "Check Our Best Clients & Partners",
+      "logos": [
+        "/images/partners/partner1.png",
+        "/images/partners/partner2.png",
+        "/images/partners/partner3.png",
+        "/images/partners/partner4.png",
+        "/images/partners/partner5.png",
+        "/images/partners/partner6.png",
+        "/images/partners/partner7.png",
+        "/images/partners/partner8.png",
+        "/images/partners/partner9.png",
+        "/images/partners/partner10.png",
+        "/images/partners/partner11.png",
+        "/images/partners/partner12.png",
+        "/images/partners/partner13.png",
+        "/images/partners/partner14.png",
+        "/images/partners/partner15.png",
+        "/images/partners/partner16.png"
+      ]
+    },
+
+    "residences": {
+      "label": "What We Offer",
+      "title": "Comprehensive Real Estate Solutions",
+      "luxuryIcon":"/images/luxury-icon.png",
+      "description": "Our comprehensive services encompass luxury property sales, sustainable green building investments, and premium vacation rentals.",
+      "text": "Experience unparalleled elegance in our luxury residences, featuring exquisite design, premium amenities, and prime locations for the most discerning tastes.",
+      "image": "/images/luxury-residences.png",
+      "number": "01",
+      "subtitle": "Luxury Residences",
+      "features": [
+        {
+          "number": "02",
+          "title": "Eco Green Buildings",
+          "image": "/images/arrow1.png"
+        },
+        {
+          "number": "03",
+          "title": "Unique Vacation Homes",
+          "image": "/images/arrow1.png"
+        }
+
+      ]
+    },
+
+    "services": {
+      "label": "Why Choose Us",
+      "title": "Explore Our Range of Expert Real Estate Services",
+      "items": [
+        {
+          "icon": "/images/services/property-sales-icon.png",
+          "title": "Property Sales",
+          "text": "Expertly promoting and selling your property to attract qualified buyers."
+        },
+        {
+          "icon": "/images/services/buyer-icon.png",
+          "title": "Buyer Representation",
+          "text": "Guiding you through the home-buying process, prioritizing your interests."
+        },
+        {
+          "icon": "/images/services/rental-icon.png",
+          "title": "Rental Management",
+          "text": "Managing tenant relations, maintenance, and finances to maximize rental returns."
+        },
+        {
+          "icon": "/images/services/investment-icon.png",
+          "title": "Investment Consulting",
+          "text": "Providing strategic advice to help you capitalize on real estate opportunities."
+        },
+        {
+          "icon": "/images/services/valuation-icon.png",
+          "title": "Property Valuation",
+          "text": "Accurately assessing your property's value for sales, purchases, or investments."
+        },
+        {
+          "icon": "/images/services/tailored-icon.png",
+          "title": "Tailored Solutions",
+          "text": "Delivering customized real estate services aligned with your specific goals."
+        }
+      ]
+    },
+
+    "process":{
+      "label": "Our Process",
+      "title": "Guiding You Through Every Step of the Real Estate Journey",
+      "items": [
+        { "step": "1", "title": "Discover Ideal Properties", "text": "We begin by understanding your needs and presenting a curated list of properties that match your lifestyle and investment goals—whether it’s luxury living, eco-conscious design, or vacation retreats."},
+        { "step": "2", "title": "Schedule Private Tours", "text": "Our team coordinates seamless property viewings, allowing you to explore each option in person or virtually, with expert guidance throughout the visit."},
+        { "step": "3", "title": "Personalized Consultation & Negotiation", "text": "We help evaluate the property, provide insights on value and sustainability, and assist with tailored offers and negotiations to secure the best deal.", "image": "" },
+        { "step": "4", "title": "Legal & Documentation Support", "text": "We simplify the legal process, ensuring all paperwork, contracts, and documentation are handled professionally and securely.", "image": "" },
+        { "step": "5", "title": "Close & Move In", "text": "Once the deal is closed, we support your transition, whether it’s settling into your dream home, managing a rental, or preparing an investment property for returns.", "image": "" }
+      ]
+    },
+
+    "agents": {
+      "label": "Meet Our Experts",
+      "title": "Personalized Guidance, Proven Expertise",
+      "clients" : [
+        { "name": "Carley Mathew", "role": "Financial Expert", "image": "/images/agents/agent1.jpg" },       
+        { "name": "Isabella Wright", "role": "Short-Term Rental Expert", "image": "/images/agents/agent2.jpg" },
+        { "name": "Noah Clarke", "role": "Eco-Friendly Property Specialist", "image": "/images/agents/agent3.jpg" },
+        { "name": "Benjamin Foster", "role": "Urban Development Advisor", "image": "/images/agents/agent4.jpg" },
+        { "name": "Emily Chen", "role": "Investment Property Consultant", "image": "/images/agents/agent5.jpg" },
+        { "name": "Michael Anderson", "role": "Vacation Rental Specialist", "image": "/images/agents/agent6.jpg" },
+        { "name": "Benjamin Foster", "role": "Urban Development Advisor", "image": "/images/agents/agent4.jpg" },
+        { "name": "Emily Chen", "role": "Investment Property Consultant", "image": "/images/agents/agent5.jpg" }
+       ],
+      "viewAllExpert": "View All Expert Agents",
+      "arrowIcon":"/images/agents/black-arrow-icon.png"
+    },
+
+    "testimonialsSection": {
+      "label": "What Our Clients Say",
+      "title": "Trusted by Many, Loved by All",
+      "description": "Our clients’ success stories reflect our commitment to excellence. See how we’ve helped them find their dream homes, sustainable investments, and perfect getaways."
+    },
+    "testimonials": [
+      {
+        "name": "Jacob Reed",
+        "role": "Corporate Attorney",
+        "text": "Olivia’s professionalism and deep understanding of luxury properties gave me confidence throughout the process.",
+        "image": "/images/clients/client1.jpg",
+        "stars": 2
+      },
+      {
+        "name": "Lily Ross",
+        "role": "Eco-Lifestyle Blogger",
+        "text": "Emma’s expertise in sustainable housing exceeded my expectations. She found me the perfect green home for my family.",
+        "image": "/images/clients/client2.jpg",
+        "stars": 4
+      },
+      {
+        "name": "Samuel Brooks",
+        "role": "Interior Designer",
+        "text": "Charlotte’s architectural insights and design advice made choosing my dream home an inspiring journey.",
+        "image": "/images/clients/client3.jpg",
+        "stars": 3
+      },
+      {
+        "name": "Amelia Cooper",
+        "role": "Graphic Designer",
+        "text": "Sophia’s passion for sustainable housing helped me find a beautiful and eco-friendly home that I absolutely love.",
+        "image": "/images/clients/client4.jpg",
+        "stars": 1
+      },
+      {
+        "name": "William Parker",
+        "role": "Business Owner",
+        "text": "Noah’s commitment to finding the perfect property for my business was exceptional. His market insights are unparalleled.",
+        "image": "/images/clients/client5.jpg",
+        "stars": 3
+      },
+      {
+        "name": "Sebastian Turner",
+        "role": "Hospitality Manager",
+        "text": "Ethan’s creativity and expertise in short-term rentals gave me the confidence to invest in my first vacation property.",
+        "image": "/images/clients/client6.jpg",
+        "stars": 5
+      },
+      {
+        "name": "Amelia Cooper",
+        "role": "Graphic Designer",
+        "text": "Sophia’s passion for sustainable housing helped me find a beautiful and eco-friendly home that I absolutely love.",
+        "image": "/images/clients/client4.jpg",
+        "stars": 1
+      },
+      {
+        "name": "William Parker",
+        "role": "Business Owner",
+        "text": "Noah’s commitment to finding the perfect property for my business was exceptional. His market insights are unparalleled.",
+        "image": "/images/clients/client5.jpg",
+        "stars": 3
+      }
+    ]
+  },
+
+
+  "properties":{
+    "propertySection": {
+      "label": "All Properties",
+      "title": "Discover homes tailored to your lifestyle and needs",
+      "viewAllText": "View All Properties",
+      "typeIcon": "/images/filters/typeIcon.png",
+      "propertyIcon": "/images/filters/propertyIcon.png",
+      "locationIcon": "/images/filters/locationIcon.png"
+    },
+    "exploreProperties": [
+      {
+        "tag": "For Sell",
+        "type":"Sell",
+        "state":"Texas",
+        "location": "River Oaks, Houston, Texas",
+        "propertyType":"Mansion",
+        "name": "Billionaire Mansion",
+        "price": "$500,000",
+        "beds": 5,
+        "baths": 3,
+        "size": "3,800 sq.ft",
+        "image": "/images/properties/property1.jpg",
+        "href": "/property-view/index.html"
+      },
+      {
+        "tag": "For Rent",
+        "type":"Rent",
+        "state": "New York",
+        "location": "Brooklyn Heights, New York",
+        "propertyType":"House",
+        "name": "Palazzo di Amore",
+        "price": "$490,000",
+        "beds": 4,
+        "baths": 2,
+        "size": "2,100 sq.ft",
+        "image": "/images/properties/property2.jpg"
+      },
+      {
+        "tag": "For Investment",
+        "type":"Investment",
+        "state": "California",
+        "location": "Bel Air, Los Angeles, California",
+        "propertyType":"Mansion",
+        "name": "The One",
+        "price": "$690,000",
+        "beds": 6,
+        "baths": 4,
+        "size": "2,780 sq.ft",
+        "image": "/images/properties/property3.jpg"
+      },
+      {
+        "tag": "For Rent",
+        "type":"Rent",
+        "state": "California",
+        "location": "Holmby Hills, Los Angeles, California",
+        "propertyType":"House",
+        "name": "The Beverly House",
+        "price": "$290,000",
+        "beds": 3,
+        "baths": 2,
+        "size": "1,500 sq.ft",
+        "image": "/images/properties/property4.jpg"
+      },
+      {
+        "tag": "For Sell",
+        "type":"Sell",
+        "state": "Texas",
+        "location": "Tarrytown, Austin, Texas",
+        "propertyType":"Mansion",
+        "name": "The Manor",
+        "price": "$482,000",
+        "beds": 7,
+        "baths": 5,
+        "size": "3,100 sq.ft",
+        "image": "/images/properties/property5.jpg"
+      },
+      {
+        "tag": "For Investment",
+        "type":"Investment",
+        "state":"New York",
+        "location": "Upper East Side, New York",
+        "name": "The Penthouse at Central Park Tower",
+        "propertyType":"Penthouse",
+        "price": "$298,000",
+        "beds": 2,
+        "baths": 0,
+        "size": "2,200 sq.ft",
+        "image": "/images/properties/property6.jpg"
+      }
+    ]
+  },
+
+  "contactUs":{
+    "contactDetails": {
+      "label": "Get In Touch",
+      "title": "START YOUR REAL ESTATE JOURNEY WITH US TODAY",
+      "mapURL": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.7003416758835!2d-74.00312192416001!3d40.65853547140173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bf19ec3f145%3A0xa528d100fead81a1!2sLiberty%20View%20Brooklyn%20Hotel!5e0!3m2!1sen!2sin!4v1751913784526!5m2!1sen!2si",
+      "items": [
+        {
+          "icon": "/images/contact/location-icon.png",
+          "title": "Address",
+          "text": "123 Serenity Boulevard, Greenwood Heights, NY 11222, United States"
+        },
+        {
+          "icon": "/images/contact/phone-icon.png",
+          "title": "Phone",
+          "text": "+1-800-555-1234"
+        },
+        {
+          "icon": "/images/contact/mail-icon.png",
+          "title": "Email",
+          "text": "info@vistahaven.com"
+        }
+      ]
+    }
+  },
+
+  "propertyView":{
+    "title": "BILLIONAIRE MANSION",
+    "location": "River Oaks, Houston, Texas.",
+    "price": "$500,000",
+    "status": "For Sell",
+    "details": 
+    [ 
+      {   
+        "beds": 5,
+        "parking": 3,
+        "size": "3,800 sq.ft"
+      }
+    ],
+
+    "mainImage": "/images/properties/property1.jpg",
+    "gallery": [
+      "/images/properties/property2.jpg", "/images/properties/property3.jpg", "/images/properties/property4.jpg", "/images/properties/property5.jpg"
+    ],
+
+    "overviewTitle": "Overview",
+    "overview": "Step into modern luxury at Billionaire Mansion, a 5-bedroom architectural masterpiece in prestigious Bel Air. Spanning 3,800 sq ft, this residence features floor-to-ceiling glass, sleek finishes, and open-concept living that blurs the lines between indoors and out. Designed for both comfort and grandeur, it’s a perfect blend of elegance, space, and Southern California living.",
+  
+    "featuresTitle": "Features",
+    
+    "features": [    
+      "5 Spacious Bedrooms",
+      "3,800 sq.ft of Modern Living Space",
+      "Floor-to-Ceiling Windows",
+      "Private Pool & Outdoor Lounge",
+      "Located in Exclusive Bel Air"
+    ],
+    
+    "amenitiesTitle": "Amenities",
+    "amenities": 
+    [
+      { "title": "TV", "icon": "/images/svg/tv.svg" },
+      { "title": "Air Conditioner", "icon": "/images/svg/ac.svg" },
+      { "title": "Refrigerator", "icon": "/images/svg/refrige.svg" },
+      { "title": "Sofa", "icon": "/images/svg/sofa.svg" },
+      { "title": "Gas", "icon": "/images/svg/gas.svg" },
+      { "title": "kitchen", "icon": "/images/svg/kitchen.svg" }
+    ],
+
+    "mapTitle": "Location",
+    "mapLocation": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.7003416758835!2d-74.00312192416001!3d40.65853547140173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25bf19ec3f145%3A0xa528d100fead81a1!2sLiberty%20View%20Brooklyn%20Hotel!5e0!3m2!1sen!2sin!4v1751913784526!5m2!1sen!2si",
+
+    "videoTitle": "Property Video",
+    "propertyVideo": "/videos/property-video.png",
+
+    "browsepropertyTitle": "Browse More Properties",
+    "browseProperty": [
+      {
+        "tag": "For Rent",
+        "image": "/images/properties/property2.jpg",
+        "location": "Brooklyn Heights, New York",
+        "name": "Palazzo di Amore",
+        "price": "$490,000",
+        "beds": 4,
+        "baths": 2,
+        "size": "2,100 sq.ft"
+      },
+      {
+        "tag": "For Investment",
+        "image": "/images/properties/property3.jpg",
+        "location": "Bel Air, Los Angeles, California",
+        "name": "The One",
+        "price": "$690,000",
+        "beds": 6,
+        "baths": 4,
+        "size": "2,780 sq.ft"
+      },
+      {
+        "tag": "For Rent",
+        "image": "/images/properties/property4.jpg",
+        "location": "Holmby Hills, Los Angeles, California",
+        "name": "The Beverly House",
+        "price": "$290,000",
+        "beds": 3,
+        "baths": 2,
+        "size": "1,500 sq.ft"
+      }
+    ],
+
+    "agentCard": {
+      "tag": "Property For Sale",
+      "price": "$500,000",
+      "desc": "Get in touch for more about this property",
+      "name": "James Callahan",
+      "role": "Luxury Property Specialist",
+      "email": "james@premierhomes.com",
+      "phone": "(972) 555-9302",
+      "image": "/images/agent.jpg"
+    }
+
+
+
+  }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

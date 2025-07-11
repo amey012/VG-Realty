@@ -1,0 +1,237 @@
+/* properties page*/
+
+/* properties */
+.allProperties {
+  padding: 4rem 12rem;
+}
+
+.allProperties-label {
+  background: #f3f3f3;
+  display: inline-block;
+  padding: 0.25rem 1.75rem;
+  border-radius: 32px;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  margin: 0 auto 0.5rem auto;
+}
+
+.allProperties-title{
+  width: 50%;
+  text-transform: uppercase;
+}
+
+.allProperties-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(360px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.allProperty-card {
+  border-radius: 16px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.allProperty-image {
+  position: relative;
+
+}
+
+.allProperty-image img {
+  width: 350px;
+  height: 250px;
+  display: block;
+  border-radius: 16px;
+}
+
+.allProperty-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
+
+.allProperty-info {
+  padding: 0.75rem 0.5rem;
+}
+
+.allProperty-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.allProperty-info .location {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0.25rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.allProperty-info h4 {
+  color: #2c2c2c;
+  margin: 0.25rem 0;
+}
+
+.allProperty-info .price {
+  font-weight: bold;
+  color: #2c2c2c;
+  margin: 0.25rem 0;
+}
+
+.allProperty-info .details {
+  display: flex;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #666;
+  justify-content: flex-start;
+}
+
+.allProperties-block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.filter-type, .filter-location, .filter-property {
+  border: 1px solid #ffffff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background: #fff;
+}
+
+.filter-type:focus,
+.filter-location:focus,
+.filter-property:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.filter-block {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  padding: 0.5rem 0.5rem;
+  gap: 0.5rem;
+}
+
+.filter-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  /* Properties */
+  .allProperties {
+    padding: 2rem 3rem;
+  }
+
+  .allProperties-title{
+    width: 100%;
+    font-size: 14px;
+    padding-bottom: 8px;
+  }
+
+  .allProperties-label{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .allProperties-block{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .allProperties-grid{
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    margin: 1rem 0rem;
+  }
+
+  .allProperty-details{
+    align-items: flex-start;
+  }
+
+  .allProperty-image img{
+    width: 140px;
+    height: 100px;
+  }
+
+  .allProperty-tag{
+    padding: 0.10rem 0.15rem;
+    font-size: 4px;
+  }
+
+  .allProperty-info{
+    padding: 0rem 0.5rem;
+  }
+
+  .allProperty-info img{
+    width: 7px;
+  }
+
+  .allProperty-info h4{
+    font-size: 8px;
+    margin: 0px;
+  }
+
+  .allProperty-info h3, .allProperty-info .details{
+    font-size: 6px;
+    gap: 4px;
+  }
+
+  .allProperty-info .price{
+    font-size: 8px;
+    margin: 0rem;
+  }
+
+  .allProperty-info .location{
+    font-size: 8px;
+    align-items: baseline;
+    gap: 4px;
+  }
+
+  /* Filters */
+  .filters {
+    gap: 10px;
+  }
+
+  .filter-type, .filter-location, .filter-property {
+    font-size: 8px;
+  }
+
+  .filter-block {
+    padding: 4px 2px;
+    gap: 0rem;
+  }
+
+  .filter-icon {
+    width: 12px;
+    height: 12px;
+  }
+  
+}
+

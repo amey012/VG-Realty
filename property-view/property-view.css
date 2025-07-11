@@ -1,0 +1,565 @@
+/* Property-View Page */
+
+.property-block{
+  padding: 3rem 12rem;
+}
+
+/* Image-grid */
+.gallery{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.mainImage{
+  width: 100%;
+  max-width: 450px;
+  border-radius: 24px;
+  object-fit: cover;
+}
+
+.property-gallery{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.property-thumbnail{
+  width: 300px;
+  height: 210px;
+  border-radius: 24px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+/* Property-Content */
+.property-title{
+  width: 40%;
+  line-height: 1.4;
+  font-size: 24px;
+  text-align: left;
+  padding-bottom: 0.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.property-location{
+  padding-bottom: 0.5rem;
+  display: flex;
+}
+
+.property-details div {
+  display: flex;
+}
+
+.property-details span {
+  display: flex;
+  gap: 4px;
+}
+
+.property-overview{
+  width: 70%;
+}
+
+.property-features-title,
+.amenities-title, 
+.map-title, 
+.video-title, 
+.property-overview h2{
+  width: 40%;
+  line-height: 1.4;
+  font-size: 24px;
+  text-align: left;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+
+.features-list{
+  display: flex;
+
+}
+
+.amenities{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.amenities-badge{
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  background: #f6f6f6;
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}
+
+.map-title{
+  padding-bottom: 1rem;
+}
+
+.map-location {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.map-location iframe {
+  border-radius: 24px;
+  width: 100%;
+  height: 250px;
+  border-radius: 16px;
+  display: block;
+}
+
+.property-video img{
+  width: 100%;
+  max-width: 700px;
+  height: 350px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: block;
+}
+
+/* Agent Card */
+
+.agent-card {
+  max-width: 250px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 24px;
+  font-family: inherit;
+  background-color: #fff;
+  flex: 1;
+  position: sticky;
+  top: 0rem;
+  height: fit-content;
+  align-self: flex-start;
+  margin-right: 2rem;
+}
+
+.agent-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: center;
+}
+
+.agent-tag {
+  font-weight: 600;
+  margin: 0rem 4rem;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.agent-price {
+  font-size: 34px;
+  font-weight: 600;
+  margin-top: 0.25rem;
+}
+
+.agent-desc {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.5rem 0.5rem;
+}
+
+.agent-btn {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  padding: 0.6rem 1.5rem;
+  font-weight: 300;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.agent-divider {
+  margin: 1rem 0;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+}
+
+.agent-divider::before,
+.agent-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 20%;
+  border-top: 1px solid #ddd;
+}
+
+.agent-divider::before {
+  left: 0px;
+}
+
+.agent-divider::after {
+  right: 0px;
+}
+
+.agent-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.agent-img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.agent-name {
+  font-weight: 600;
+  text-align: left;
+}
+
+.agent-role {
+  font-size: 0.8rem;
+  color: #888;
+  text-align: left;
+}
+
+.agent-contact {
+  font-size: 0.85rem;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.agent-mail, .agent-phone {
+  font-size: 0.85rem;
+  color: #333;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.property-wrapper{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  position: relative;
+}
+
+.property-main-content{
+  flex: 3;
+}
+
+/* Browse More Properties */
+
+.browse-property{
+  padding: 4rem 0rem;
+}
+
+.browse-property-title{
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  color: #2c2c2c;
+  font-size: 1.5rem;
+}
+
+.browse-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(210px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.browse-image {
+  position: relative;
+}
+
+.browse-img{
+  width: 350px;
+  height: 250px;
+  display: block;
+  border-radius: 16px;
+}
+
+.browse-tag {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+}
+
+.browse-info {
+  padding: 0.75rem 0.5rem;
+}
+
+.browse-details{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.browse-info .location {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0.25rem 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.browse-info h4 {
+  color: #2c2c2c;
+  margin: 0.25rem 0;
+}
+
+.browse-info .price {
+  font-weight: bold;
+  color: #2c2c2c;
+  margin: 0.25rem 0;
+}
+
+.browse-info .details {
+  display: flex;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #666;
+  justify-content: flex-start;
+}
+
+@media (max-width: 768px) {
+  .property-block{
+    padding: 1rem 4rem;
+  }
+
+  .gallery {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .mainImage {
+    max-width: 230px;
+  }
+
+  .property-gallery {
+    display: flex;
+    gap: 5px;
+  }
+
+  .property-thumbnail {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+
+  .property-title{
+    font-size: 14px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .property-location, .property-details{
+    font-size: 9px;
+    gap: 4px;
+  }
+
+  .property-details div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .property-details img{
+    width: 14px;
+  }
+
+  .property-location img{
+    width: 10px;
+  }
+  
+  .property-overview h2{
+    font-size: 14px;
+    margin-top: -1rem;
+    padding-bottom: 0px;
+  }
+
+  .property-overview div{
+    font-size: 10px;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .property-wrapper {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .property-main-content{
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .property-features-title,
+  .amenities-title,
+  .map-title,
+  .video-title{
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .property-overview {
+    width: 100%;
+  }
+
+  .features-list {
+    gap: 1rem;
+    font-size: 10px;
+  }
+
+  .features-list img{
+    width: 14px;
+  }
+
+  .amenities {
+    gap: 0.5rem;
+  }
+
+  .amenities-badge{
+    font-size: 8px;
+    padding: 2px 4px;
+  }
+
+  .amenities-badge img{
+    width: 12px;
+  }
+
+  .agent-card {
+    margin-right: 0;
+    width: 80%;
+  }
+
+  .agent-tag {
+    margin: 0rem 0rem;
+    font-size: 12px;
+  }
+
+  .agent-price {
+    font-size: 18px;
+  }
+
+  .agent-desc {
+    font-size: 12px;
+    margin: 0.2rem 0rem;
+  }
+
+  .agent-btn {
+    font-size: 10px;
+    padding: 4px 6px;
+  }
+
+  .agent-divider {
+    margin: 5px 0px;
+    font-size: 12px;
+  }
+
+  .agent-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .agent-name {
+    font-size: 12px;
+  }
+
+  .agent-role {
+    font-size: 10px;
+  }
+
+  .agent-mail, .agent-phone {
+    font-size: 10px;
+  }
+
+  .agent-divider::before,
+  .agent-divider::after {
+    width: 15%;
+  }
+
+  .property-video img {
+    height: 200px;
+  }
+
+  .browse-property {
+    padding: 1rem 1rem;
+  }
+
+  .browse-property-title {
+    font-size: 14px;
+    width: 100%;
+    padding-bottom: 0rem;
+  }
+
+  .browse-grid {
+    grid-template-columns: 1fr;
+    margin: 0rem 0rem;
+  }
+
+  .browse-img {
+    width: 180px;
+    height: 150px;
+    border-radius: 12px;
+  }
+
+  .browse-tag {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: #ffffff;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 6px;
+  }
+
+  .browse-info {
+    padding: 4px 2px;
+  }
+
+  .browse-info .location {
+    font-size: 10px;
+  }
+
+  .browse-info img{
+    width: 12px;
+  }
+
+  .browse-info h4, .price{
+    margin: 0rem 0;
+    font-size: 12px;
+  }
+
+  .browse-info .details{
+    font-size: 10px;
+  }
+
+  .browse-details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .map-location{
+    width: 250px;
+  }
+  
+}
